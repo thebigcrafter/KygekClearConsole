@@ -1,0 +1,19 @@
+---
+# Put plugin description here
+# Copyright (C) 2021 KygekTeam
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# he Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+name: KygekPluginTemplate
+version: 1.0.0
+description: Put plugin description here
+author: KygekTeam
+website: "https://github.com/KygekTeam/KygekPluginTemplate"
+api: 3.18.0
+extensions:
+  Core: ">=8.0"
+main: KygekTeam\KygekPluginTemplate\PluginTemplate
+...
