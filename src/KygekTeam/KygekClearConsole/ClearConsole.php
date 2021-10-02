@@ -16,11 +16,11 @@ namespace KygekTeam\KygekClearConsole;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\command\ConsoleCommandSender;
+use pocketmine\console\ConsoleCommandSender;
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketSendEvent;
 use pocketmine\network\mcpe\protocol\AvailableCommandsPacket;
-use pocketmine\network\mcpe\protocol\types\CommandData;
+use pocketmine\network\mcpe\protocol\types\command\CommandData;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat as TF;
 
@@ -29,7 +29,7 @@ class ClearConsole extends PluginBase implements Listener {
     private const COMMAND = "clearconsole";
     private const CLEAR_CONSOLE_STRING = "\e[H\e[J";
 
-    public function onEnable() {
+    protected function onEnable() : void {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
@@ -49,7 +49,7 @@ class ClearConsole extends PluginBase implements Listener {
      * @priority HIGHEST
      */
     public function onPacketSend(DataPacketSendEvent $event) {
-        $pk = $event->getPacket();
+        $pk = $event->getPackets();
         if ($pk instanceof AvailableCommandsPacket) {
             $pk->commandData = array_filter($pk->commandData, function (CommandData $data) : bool {
                 return $data->commandName !== self::COMMAND;
