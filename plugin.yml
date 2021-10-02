@@ -8,11 +8,11 @@
 # (at your option) any later version.
 
 name: KygekClearConsole
-version: 1.0.0
+version: 2.0.0-BETA
 description: Clear server console using command
 author: KygekTeam
 website: "https://github.com/KygekTeam/KygekClearConsole"
-api: 3.18.0
+api: 4.0.0
 extensions:
   Core: ">=8.0"
 main: KygekTeam\KygekClearConsole\ClearConsole
