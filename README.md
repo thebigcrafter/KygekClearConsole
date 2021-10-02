@@ -2,7 +2,7 @@
 
 [![Discord](https://img.shields.io/discord/735439472992321587.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/CXtqUZv)
 
-> WARNING: This plugin will only work on PocketMine-MP servers using PHP 8.0 or newer.
+**PM4 BRANCH WARNING: This plugin branch is currently under development. There might be some major bugs. If you found one, please [submit an issue](https://github.com/KygekTeam/KygekClearConsole/issues).**
 
 A PocketMine-MP plugin to clear server console using command. This plugin is roughly equivalent to `cls` command on Windows or `clear` command on Linux.
 
