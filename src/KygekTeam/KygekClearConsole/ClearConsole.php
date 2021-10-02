@@ -26,10 +26,16 @@ use pocketmine\utils\TextFormat as TF;
 
 class ClearConsole extends PluginBase implements Listener {
 
+    private const IS_DEV = true;
+
     private const COMMAND = "clearconsole";
     private const CLEAR_CONSOLE_STRING = "\e[H\e[J";
 
     protected function onEnable() : void {
+        /** @phpstan-ignore-next-line */
+        if (self::IS_DEV) {
+            $this->getLogger()->warning("This plugin is running on a development version. There might be some major bugs. If you found one, please submit an issue in https://github.com/KygekTeam/KygekClearConsole/issues.");
+        }
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
