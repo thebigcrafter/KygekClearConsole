@@ -20,5 +20,11 @@ main: KygekTeam\KygekClearConsole\ClearConsole
 commands:
   clearconsole:
     description: Clears server console
+    permission: kygekclearconsole.cmd
     aliases: [cc]
+
+# Dummy permission
+permissions:
+  kygekclearconsole.cmd:
+    default: true
 ...
