@@ -26,7 +26,7 @@ use pocketmine\utils\TextFormat as TF;
 
 class ClearConsole extends PluginBase implements Listener {
 
-    private const IS_DEV = true;
+    private const IS_DEV = false;
 
     private const COMMAND = "clearconsole";
     private const CLEAR_CONSOLE_STRING = "\e[H\e[J";
