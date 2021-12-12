@@ -7,6 +7,5 @@ projects:
   KygekClearConsole:
     path: ""
     lint:
-      phpstan: false
       directStdout: false
 ...
