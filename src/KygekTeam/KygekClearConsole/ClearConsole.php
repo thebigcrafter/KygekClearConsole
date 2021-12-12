@@ -45,7 +45,6 @@ class ClearConsole extends PluginBase implements Listener {
                 $sender->sendMessage($this->getServer()->getLanguage()->translateString(TF::RED . "%commands.generic.notFound"));
                 return true;
             }
-            /** @phpstan-ignore-next-line */
             echo self::CLEAR_CONSOLE_STRING;
         }
         return true;
@@ -59,7 +58,7 @@ class ClearConsole extends PluginBase implements Listener {
         foreach ($pks as $pk) {
             if ($pk instanceof AvailableCommandsPacket) {
                 $pk->commandData = array_filter($pk->commandData, function (CommandData $data) : bool {
-                    return $data->commandName !== self::COMMAND;
+                    return $data->getName() !== self::COMMAND;
                 });
             }
         }
