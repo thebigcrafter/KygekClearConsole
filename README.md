@@ -10,13 +10,14 @@ This plugin is not planned to be released on Poggit, because it may break Rule A
 
 ## ❔ How Does This Plugin Works
 
-This plugin clears the console when the `clearconsole` command (Alias: `cc`) gets executed. This plugin prints `\e[H\e[J` character to console to clear the console. This plugin ensures the command will only show and work on console by modifying the `AvailableCommandsPacket` packet and by sending unknown command message whenever a player tries to execute the command.
+This plugin clears the console when the `clearconsole` command (Alias: `cc`) gets executed. This plugin prints `\e[H\e[J` character to console to clear the console. This plugin ensures the command will only show and work on console by using `CommandEvent` to capture the command and cancelling the event to prevent unexpected outputs (e.g. Unknown command) if the sender is from the console.
 
 ## ✅ Features
 
 - Only works in console
 - Command gets hidden in command suggestions and help page (Player)
 - Sends unknown command message whenever a player tries to execute the command
+- API to clear the console (`ClearConsole::clear()`)
 
 ## 🔧 Installation
 

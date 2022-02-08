@@ -14,15 +14,4 @@ author: KygekTeam
 website: "https://github.com/KygekTeam/KygekClearConsole"
 api: 4.0.0
 main: KygekTeam\KygekClearConsole\ClearConsole
-
-commands:
-  clearconsole:
-    description: Clears server console
-    permission: kygekclearconsole.cmd
-    aliases: [cc]
-
-# Dummy permission
-permissions:
-  kygekclearconsole.cmd:
-    default: true
 ...
