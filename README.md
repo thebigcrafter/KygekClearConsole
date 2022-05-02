@@ -1,8 +1,8 @@
 # KygekClearConsole
 
-[![Discord](https://img.shields.io/discord/735439472992321587.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/CXtqUZv)
+[![Discord](https://img.shields.io/discord/970294579372912700.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/cEXW8uK6QA)
 
-**NOTICE:** This plugin branch is for PocketMine-MP 4. If you are looking for the PocketMine-MP 3 version of this plugin, please visit the [main](https://github.com/KygekTeam/KygekClearConsole/tree/main) branch.
+**NOTICE:** This plugin branch is for PocketMine-MP 4. If you are looking for the PocketMine-MP 3 version of this plugin, please visit the [main](https://github.com/thebigcrafter/KygekClearConsole/tree/main) branch.
 
 A PocketMine-MP plugin to clear server console using command. This plugin is roughly equivalent to `cls` command on Windows or `clear` command on Linux.
 
