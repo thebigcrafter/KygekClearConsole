@@ -31,7 +31,7 @@ This plugin clears the console when the `clearconsole` command (Alias: `cc`) get
 
 | Command | Description | Aliases |
 | --- | --- | --- |
-| `/clearconsole` | Clears server console | `/cc` |
+| `/clearconsole` | Clears server console | `/cc`, `/cls` and `/clr` |
 
 ## 🧾 Planned Features
 
@@ -39,8 +39,8 @@ Nothing for now. You can request for a feature to be added in a future update [h
 
 ## ➕ Additional Info
 
-KygekClearConsole is a PocketMine-MP plugin by KygekTeam and licensed under **GPL-3.0**.
+KygekClearConsole is a PocketMine-MP plugin by KygekTeam but is being maintained by thebigcrafter and licensed under **GPL-3.0**.
 
-- Join our Discord server [here](https://discord.gg/CXtqUZv) for latest news and support from KygekTeam.
-- If you found bugs or want to give suggestions, please visit [here](https://github.com/KygekTeam/KygekClearConsole/issues) or join our Discord server.
-- We accept all contributions! If you want to contribute please make a pull request in [here](https://github.com/KygekTeam/KygekClearConsole/pulls).
+- Join our Discord server [here](https://discord.gg/cEXW8uK6QA) for latest news and support from thebigcrafter.
+- If you found bugs or want to give suggestions, please visit [here](https://github.com/thebigcrafter/KygekClearConsole/issues) or join our Discord server.
+- We accept all contributions! If you want to contribute please make a pull request in [here](https://github.com/thebigcrafter/KygekClearConsole/pulls).
