@@ -22,8 +22,8 @@ This plugin clears the console when the `clearconsole` command (Alias: `cc`) get
 ## 🔧 Installation
 
 1. 🔽 Download the latest version from GitHub Releases or Poggit CI below:
-    - Stable version (Recommended for most users): [Latest](https://github.com/KygekTeam/KygekClearConsole/releases/latest) | [All releases](https://github.com/KygekTeam/KygekClearConsole/releases)
-    - Build version (Only recommended for advanced users): [Poggit CI](https://poggit.pmmp.io/ci/KygekTeam/KygekClearConsole/~)
+    - Stable version (Recommended for most users): [Latest](https://github.com/thebigcrafter/KygekClearConsole/releases/latest) | [All releases](https://github.com/thebigcrafter/KygekClearConsole/releases)
+    - Build version (Only recommended for advanced users): [Poggit CI](https://poggit.pmmp.io/ci/thebigcrafter/KygekClearConsole/~)
 2. 📁 Drop the downloaded `KygekClearConsole.phar` plugin file into your PocketMine-MP server's `plugins` directory.
 3. 🔄 Restart your server and you're ready to test the plugin!
 
@@ -35,7 +35,7 @@ This plugin clears the console when the `clearconsole` command (Alias: `cc`) get
 
 ## 🧾 Planned Features
 
-Nothing for now. You can request for a feature to be added in a future update [here](https://github.com/KygekTeam/KygekClearConsole/issues)!
+Nothing for now. You can request for a feature to be added in a future update [here](https://github.com/thebigcrafter/KygekClearConsole/issues)!
 
 ## ➕ Additional Info
 
