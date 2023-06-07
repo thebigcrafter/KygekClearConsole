@@ -2,13 +2,9 @@
 build-by-default: true
 branches:
 - main
-- pm4
 projects:
   KygekClearConsole:
     path: ""
-    libs:
-    - src: thebigcrafter/ktpmpl-cfs/ktpmpl-cfs
-      version: ^4.0.0
     lint:
       directStdout: false
 ...

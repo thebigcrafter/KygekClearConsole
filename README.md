@@ -2,8 +2,7 @@
 
 <p align="center">
 <a href="https://github.com/thebigcrafter/KygekClearConsole/blob/pm4/LICENSE"><img src="https://img.shields.io/github/license/thebigcrafter/KygekClearConsole?style=for-the-badge" alt="license" /></a>
-<a href="https://discord.gg/cEXW8uK6QA"><img src="https://img.shields.io/discord/970294579372912700?color=7289DA&label=discord&logo=discord&style=for-the-badge" alt="discord" /></a>
-</p>
+<a href="https://discord.gg/PykBfE2TZ9"><img src="https://img.shields.io/discord/1087729577004122112?color=7289DA&label=discord&logo=discord&style=for-the-badge" alt="discord" /></a>
 
 # 📖 About
 
@@ -38,4 +37,4 @@ This plugin clears the console when the `clearconsole` command (Alias: `cc`) get
 
 # ⚖️ License
 
-Licensed under the [GNU General Public License v3.0 license](https://github.com/thebigcrafter/KygekClearConsole/blob/pm4/LICENSE).
+Licensed under the [GNU General Public License v3.0 license](https://github.com/thebigcrafter/KygekClearConsole/blob/main/LICENSE).
