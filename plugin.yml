@@ -1,6 +1,6 @@
 ---
 # Clear server console using command
-# Copyright (C) 2021 KygekTeam
+# Copyright (C) 2021-2022 KygekTeam
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -8,17 +8,10 @@
 # (at your option) any later version.
 
 name: KygekClearConsole
-version: 1.0.0
+version: 2.1.0
 description: Clear server console using command
 author: KygekTeam
 website: "https://github.com/KygekTeam/KygekClearConsole"
-api: 3.18.0
-extensions:
-  Core: ">=8.0"
+api: 4.0.0
 main: KygekTeam\KygekClearConsole\ClearConsole
-
-commands:
-  clearconsole:
-    description: Clears server console
-    aliases: [cc]
 ...
