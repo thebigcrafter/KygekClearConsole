@@ -33,7 +33,7 @@ class ClearConsole extends PluginBase implements Listener {
 	/**
 	 * @priority HIGHEST
 	 */
-	public function onCommandEvent(CommandEvent $event) {
+	public function onCommandEvent(CommandEvent $event) : void {
 		if (in_array(mb_strtolower($event->getCommand()), self::COMMAND, true)) {
 			if ($event->getSender() instanceof ConsoleCommandSender) {
 				self::clear();
@@ -47,7 +47,7 @@ class ClearConsole extends PluginBase implements Listener {
 	 * Clears the server console by printing a special string
 	 * @return void
 	 */
-	public static function clear() {
+	public static function clear() : void {
 		echo self::CLEAR_CONSOLE_STRING;
 	}
 
